@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxxer Component</title>
+    <link rel="stylesheet" href="asset/bootstrap.min-3.3.7.css">
+    <script type="text/javascript" src="asset/custom.js"></script>
+    <style type="text/css">
+        body {
+            text-align: right;
+        }
+        
+        .theBox {
+            border: thin solid gray;
+            position: relative;
+            height: 10vh;
+            float: right;
+        }
+        
+        .btnRow {
+            position: fixed;
+            bottom: 0;
+            height: 10vh;
+            right: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+    </div>
+    <div class="row btnRow">
+        <div class="col col-xs-1 theBox">
+            <button onclick="addBox(1)">+1</button></div>
+        <div class="col col-xs-1 theBox">
+            <button onclick="addBox(2)">+2</button></div>
+        <div class="col col-xs-1 theBox">
+            <button onclick="addBox(3)">+3</button></div>
+        <div class="col col-xs-1 theBox">
+            <button onclick="addBox(4)">+4</button></div>
+        <div class="col col-xs-1 theBox">
+            <button onclick="addBox(5)">+5</button></div>
+    </div>
+</body>
+
+</html>
