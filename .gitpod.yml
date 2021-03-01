@@ -1,0 +1,5 @@
+tasks:
+  -  name: init
+     init: npm install && npm run build,
+  -  name: serve
+     init: npm run serve
